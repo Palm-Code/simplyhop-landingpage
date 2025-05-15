@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "badge": {
+      "label": "Coming Soon"
+    },
+    "title": "„Sachsen ",
+    "title_2": "fährt mit'",
+    "description": "Sachsen fährt mit – Start im September 2025",
+    "image": {
+      "src": "/images/home/hero/image.svg",
+      "alt": "hero_image",
+      "width": 1200,
+      "height": 636
+    }
+  },
+  "about_us": {
+    "title": "Einfach. Klimafreundlich. Gemeinsam.",
+    "contents": [
+      "Die neue Mitfahrplattform für ganz Sachsen.",
+      "<br />",
+      "für Berufspendler*innen. ",
+      "<br />",
+      "Unser Ziel: Mitarbeitende großer Unternehmen, Behörden und Institutionen intelligent vernetzen und so den Weg zur Arbeit entspannter, günstiger und umweltfreundlicher machen.",
+      "<br />",
+      "Ab September 2025 startet Sachsen fährt mit – das regionale Mitfahrportal.",
+      "<br />",
+      "für Berufspendler*innen. Unser Ziel: Mitarbeitende großer Unternehmen, Behörden und Institutionen intelligent vernetzen und so den Weg zur Arbeit entspannter, günstiger und umweltfreundlicher machen."
+    ],
+    "image": {
+      "src": "/images/home/about_us/image.svg",
+      "alt": "about_us.svg",
+      "width": 582,
+      "height": 426
+    }
+  },
+  "benefit": {
+    "title": "Was macht SACHSEN FÄHRT MIT besonders?",
+    "contents": [
+      "S.F.M ist ein Benefit Eures Arbeitgebers",
+      "Einfach passende Fahrgemeinschaften finden – nach Arbeitszeit, Schichtmodell oder Route",
+      "Kostenfrei und werbefrei nutzbar – ohne Gebühren, ohne Datenweitergabe",
+      "DSGVO-konform – mit Serverstandort in Deutschland",
+      "Klimafreundlich und solidarisch – für weniger Verkehr, mehr Parkraum und gemeinsame Ersparnisse",
+      "Fair geregelt – Fahrtkosten vereinbart ihr untereinander"
+    ],
+    "image": {
+      "items": [
+        {
+          "src": "/images/home/card_1.svg",
+          "alt": "card_1.svg",
+          "width": 730,
+          "height": 124
+        },
+        {
+          "src": "/images/home/card_2.svg",
+          "alt": "card_2.svg",
+          "width": 730,
+          "height": 124
+        },
+        {
+          "src": "/images/home/card_3.svg",
+          "alt": "card_3.svg",
+          "width": 730,
+          "height": 124
+        }
+      ]
+    }
+  },
+  "contact_us": {
+    "title": "Schon dabei?",
+    "description": "Viele sächsische Unternehmen sind bereits Partner. Frag nach, ob auch dein Arbeitgeber dazugehört – oder schreib uns:",
+    "email": {
+      "href": "mailto:service@simplyhop.com",
+      "children": "✉️<br/>service@simplyhop.com"
+    }
+  }
+}

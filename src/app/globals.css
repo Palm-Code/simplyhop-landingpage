@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-inter: var(--font-inter);
+  --max-width-container: 1344px;
+  --breakpoint-container: 1344px;
+
+  --color-green-500: #5ac53d;
+  --color-neutral-50: #f6f6f6;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+
+  /* Hide arrows in WebKit browsers */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  /* Hide arrows in Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.cm__btn {
+  background-color: #333fff !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+.cm__btn:hover {
+  background-color: #333fff !important;
+}
+
+.cm__btn--secondary {
+  background-color: #333fff !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+.cm__btn--secondary:hover {
+  background-color: #333fff !important;
+}
+
+.cm__link-group a {
+  color: #333fff !important;
+}
+
+.cm__link-group a:hover {
+  color: #333fff !important;
+}
