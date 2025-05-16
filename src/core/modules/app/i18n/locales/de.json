@@ -6,7 +6,8 @@
       "width": 170,
       "height": 170,
       "alt": "logo",
-      "priority": true
+      "priority": true,
+      "quality": 100
     }
   },
   "footer": {

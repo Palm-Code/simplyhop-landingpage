@@ -10,7 +10,8 @@
       "src": "/images/home/hero/image.svg",
       "alt": "hero_image",
       "width": 1200,
-      "height": 636
+      "height": 636,
+      "quality": 100
     }
   },
   "about_us": {
@@ -30,13 +31,15 @@
       "src": "/images/home/about_us/image.svg",
       "alt": "about_us.svg",
       "width": 582,
-      "height": 426
+      "height": 426,
+      "quality": 100
     },
     "rectangle": {
       "src": "/images/home/benefit/rectangle.png",
       "alt": "rectangle",
       "width": 312,
-      "height": 289
+      "height": 289,
+      "quality": 100
     }
   },
   "benefit": {
@@ -55,7 +58,8 @@
         "src": "/images/home/benefit/rectangle.png",
         "alt": "rectangle",
         "width": 312,
-        "height": 289
+        "height": 289,
+        "quality": 100
       },
       "desktop": {
         "items": [
@@ -63,19 +67,22 @@
             "src": "/images/home/benefit/card_1.svg",
             "alt": "card_1.svg",
             "width": 730,
-            "height": 124
+            "height": 124,
+            "quality": 100
           },
           {
             "src": "/images/home/benefit/card_2.svg",
             "alt": "card_2.svg",
             "width": 730,
-            "height": 124
+            "height": 124,
+            "quality": 100
           },
           {
             "src": "/images/home/benefit/card_3.svg",
             "alt": "card_3.svg",
             "width": 730,
-            "height": 124
+            "height": 124,
+            "quality": 100
           }
         ]
       },
@@ -83,7 +90,8 @@
         "src": "/images/home/benefit/card_mobile.svg",
         "alt": "mobile",
         "width": 343,
-        "height": 400
+        "height": 400,
+        "quality": 100
       }
     }
   },
