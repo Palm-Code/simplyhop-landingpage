@@ -20,8 +20,7 @@ export default function HelpCenterLayout({ children }: HelpCenterLayoutProps) {
         <div
           className={clsx(
             "grid grid-cols-1 items-start content-start justify-center justify-items-center",
-            "w-full",
-            "pt-[50px]"
+            "w-full"
           )}
         >
           <div
