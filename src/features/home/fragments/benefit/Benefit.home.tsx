@@ -9,7 +9,9 @@ export const BenefitHome = () => {
     <div
       className={clsx(
         "grid grid-cols-1 lg:grid-cols-[492px_1fr] items-center content-center justify-start justify-items-start gap-[1rem]",
-        "w-full min-h-[680px]"
+        "w-full min-h-[680px]",
+        "px-[1.5rem]",
+        "max-w-[1224px]"
       )}
     >
       <div

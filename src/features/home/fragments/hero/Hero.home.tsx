@@ -10,7 +10,9 @@ export const HeroHome = () => {
       className={clsx(
         "grid grid-cols-1 items-start content-start justify-center justify-items-center gap-[2.5rem]",
         "w-full",
-        "py-[3rem]"
+        "py-[3rem]",
+        "px-[1.5rem]",
+        "max-w-[1224px]"
       )}
     >
       <div

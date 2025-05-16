@@ -79,7 +79,7 @@
     "description": "Viele sächsische Unternehmen sind bereits Partner. Frag nach, ob auch dein Arbeitgeber dazugehört – oder schreib uns:",
     "email": {
       "href": "mailto:service@simplyhop.com",
-      "children": "✉️<br/>service@simplyhop.com"
+      "children": "✉️<br/><u>service@simplyhop.com</u>"
     }
   }
 }

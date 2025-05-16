@@ -16,9 +16,8 @@ export const HomeContainer = () => {
     >
       <div
         className={clsx(
-          "grid grid-cols-1 place-content-start place-items-start gap-[1.5rem] lg:gap-[0rem]",
-          "max-w-[1200px]",
-          "px-[1.5rem]"
+          "grid grid-cols-1 items-start content-start justify-center justify-items-center gap-[1.5rem] lg:gap-[0rem]",
+          "w-full"
         )}
       >
         <HeroHome />
