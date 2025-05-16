@@ -34,7 +34,10 @@ export const AboutUsHome = () => {
             {...dictionaries.benefit.image.rectangle}
             className={clsx("absolute top-0 right-0", "w-[312px] h-[289px]")}
           />
-          <Image {...dictionaries.about_us.image} />
+          <Image
+            {...dictionaries.about_us.image}
+            className={clsx("relative z-10")}
+          />
         </div>
         <div
           className={clsx(

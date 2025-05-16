@@ -60,7 +60,11 @@ export const BenefitHome = () => {
             key={index}
             className={clsx(index == 1 ? "pl-[4rem]" : "pl-[0rem]", "relative")}
           >
-            <Image key={index} {...image} className={clsx("object-contain")} />
+            <Image
+              key={index}
+              {...image}
+              className={clsx("object-contain", "relative z-10")}
+            />
           </div>
         ))}
       </div>
