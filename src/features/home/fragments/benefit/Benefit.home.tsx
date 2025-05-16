@@ -41,11 +41,20 @@ export const BenefitHome = () => {
 
       <div
         className={clsx(
-          "hidden lg:grid grid-cols-1 place-content-start place-items-start gap-[0rem]",
+          "hidden lg:grid grid-cols-1 items-center content-center justify-start justify-items-start gap-[0rem]",
           "w-full",
-          "relative"
+          "relative",
+          "min-h-[480px]"
         )}
       >
+        <Image
+          {...dictionaries.benefit.image.rectangle}
+          className={clsx("absolute top-0 left-0", "w-[312px] h-[289px]")}
+        />
+        <Image
+          {...dictionaries.benefit.image.rectangle}
+          className={clsx("absolute bottom-0 right-0", "w-[312px] h-[289px]")}
+        />
         {dictionaries.benefit.image.desktop.items.map((image, index) => (
           <div
             key={index}

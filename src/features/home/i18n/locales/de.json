@@ -31,6 +31,12 @@
       "alt": "about_us.svg",
       "width": 582,
       "height": 426
+    },
+    "rectangle": {
+      "src": "/images/home/benefit/rectangle.png",
+      "alt": "rectangle",
+      "width": 312,
+      "height": 289
     }
   },
   "benefit": {
@@ -45,6 +51,12 @@
     ],
 
     "image": {
+      "rectangle": {
+        "src": "/images/home/benefit/rectangle.png",
+        "alt": "rectangle",
+        "width": 312,
+        "height": 289
+      },
       "desktop": {
         "items": [
           {
@@ -70,8 +82,8 @@
       "mobile": {
         "src": "/images/home/benefit/card_mobile.svg",
         "alt": "mobile",
-        "width": 312,
-        "height": 289
+        "width": 343,
+        "height": 400
       }
     }
   },

@@ -25,10 +25,15 @@ export const AboutUsHome = () => {
       >
         <div
           className={clsx(
-            "grid grid-cols-1 place-content-start place-items-start gap-[1.25rem]",
-            "w-full"
+            "grid grid-cols-1 items-center content-center justify-center justify-items-center gap-[1.25rem]",
+            "w-full h-full",
+            "relative"
           )}
         >
+          <Image
+            {...dictionaries.benefit.image.rectangle}
+            className={clsx("absolute top-0 right-0", "w-[312px] h-[289px]")}
+          />
           <Image {...dictionaries.about_us.image} />
         </div>
         <div
