@@ -43,35 +43,36 @@
       "Klimafreundlich und solidarisch – für weniger Verkehr, mehr Parkraum und gemeinsame Ersparnisse",
       "Fair geregelt – Fahrtkosten vereinbart ihr untereinander"
     ],
-    "background": {
-      "image": {
-        "src": "/images/home/benefit/rectangle.png",
-        "alt": "rectangle",
+
+    "image": {
+      "desktop": {
+        "items": [
+          {
+            "src": "/images/home/benefit/card_1.svg",
+            "alt": "card_1.svg",
+            "width": 730,
+            "height": 124
+          },
+          {
+            "src": "/images/home/benefit/card_2.svg",
+            "alt": "card_2.svg",
+            "width": 730,
+            "height": 124
+          },
+          {
+            "src": "/images/home/benefit/card_3.svg",
+            "alt": "card_3.svg",
+            "width": 730,
+            "height": 124
+          }
+        ]
+      },
+      "mobile": {
+        "src": "/images/home/benefit/card_mobile.svg",
+        "alt": "mobile",
         "width": 312,
         "height": 289
       }
-    },
-    "image": {
-      "items": [
-        {
-          "src": "/images/home/benefit/card_1.svg",
-          "alt": "card_1.svg",
-          "width": 730,
-          "height": 124
-        },
-        {
-          "src": "/images/home/benefit/card_2.svg",
-          "alt": "card_2.svg",
-          "width": 730,
-          "height": 124
-        },
-        {
-          "src": "/images/home/benefit/card_3.svg",
-          "alt": "card_3.svg",
-          "width": 730,
-          "height": 124
-        }
-      ]
     }
   },
   "contact_us": {
