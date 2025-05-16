@@ -34,9 +34,12 @@ export const AboutUsHome = () => {
           {dictionaries.about_us.title}
         </h2>
         <ol>
-          {dictionaries.about_us.contents.map((content) => (
+          {dictionaries.about_us.contents.map((content, index) => (
             <li
-              className={clsx("text-[0.875rem] lg:text-[1rem] text-[#5B5B5B] font-normal")}
+              key={index}
+              className={clsx(
+                "text-[0.875rem] lg:text-[1rem] text-[#5B5B5B] font-normal"
+              )}
               dangerouslySetInnerHTML={{ __html: content }}
             />
           ))}

@@ -26,8 +26,11 @@ export const BenefitHome = () => {
           {dictionaries.benefit.title}
         </h2>
         <ol className={clsx("list-disc", "pl-[1.5rem]")}>
-          {dictionaries.benefit.contents.map((content) => (
-            <li className={clsx("text-[1rem] text-[#5B5B5B] font-normal")}>
+          {dictionaries.benefit.contents.map((content, index) => (
+            <li
+              key={index}
+              className={clsx("text-[1rem] text-[#5B5B5B] font-normal")}
+            >
               {content}
             </li>
           ))}
@@ -40,8 +43,8 @@ export const BenefitHome = () => {
           // "w-full"
         )}
       >
-        {dictionaries.benefit.image.items.map((image) => (
-          <Image {...image} />
+        {dictionaries.benefit.image.items.map((image, index) => (
+          <Image key={index} {...image} />
         ))}
       </div>
     </div>
