@@ -39,12 +39,17 @@ export const BenefitHome = () => {
 
       <div
         className={clsx(
-          "grid grid-cols-1 place-content-start place-items-start gap-[1.25rem]"
-          // "w-full"
+          "grid grid-cols-1 place-content-start place-items-start gap-[0rem]",
+          "relative"
         )}
       >
         {dictionaries.benefit.image.items.map((image, index) => (
-          <Image key={index} {...image} />
+          <div
+            key={index}
+            className={clsx(index == 1 ? "pl-[4rem]" : "pl-[0rem]", "relative")}
+          >
+            <Image key={index} {...image} className={clsx("object-contain")} />
+          </div>
         ))}
       </div>
     </div>
