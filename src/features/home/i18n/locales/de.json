@@ -97,6 +97,14 @@
     "email": {
       "href": "mailto:service@simplyhop.com",
       "children": "✉️<br/><u>service@simplyhop.com</u>"
+    },
+    "eu": {
+      "image": {
+        "alt": "eu",
+        "src": "/logo/eu.jpg",
+        "width": 1165,
+        "height": 565
+      }
     }
   }
 }
