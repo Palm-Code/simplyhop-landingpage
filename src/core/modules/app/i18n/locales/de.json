@@ -19,6 +19,11 @@
           "href": "/impressum"
         },
         {
+          "id": "Barrierefreiheitserklärung",
+          "name": "Barrierefreiheitserklärung",
+          "href": "/accessibility"
+        },
+        {
           "id": "datenschutz",
           "name": "Datenschutz",
           "href": "/datenschutz"
